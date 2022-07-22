@@ -1,0 +1,431 @@
+@media only screen and (max-width:1920px) {
+	header .row {
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+@media only screen and (max-width:1540px) {
+
+}
+@media only screen and (max-width:1440px) {
+	.tag-div-icn {
+		padding: 5px 5px;
+	}
+	.save-button .sign-btn {
+		border-radius: 18px;	
+		padding: 1px 4px;
+	}
+	.save-button img {
+		padding: 0 9px;
+	}
+	.tag-div {
+		padding: 9px 7px;
+		
+	}
+	.content-text {
+		padding: 0px 11px;
+		
+	}
+	.document-tag-content i {
+		padding: 0 7px;
+	}
+	.signed-btnwrap {
+		margin: 0px 0px;
+		width: 100%;
+	}
+	.expiry-detail {
+		margin-top: 22px !important;
+	}
+	.contract-field {
+		font-size: 15px !important;
+	}
+	.contract-par-field-sel {
+		padding: 10px 0px;
+	}
+	.par-field-tel input {
+		padding: 10px 0;
+	}
+	.account-wrap-1 {
+		font-size: 20px;
+	
+	}
+	.save-button {
+		text-align: center;
+	}
+	.right-box-wrap {
+		padding: 30px 5px 0px 5px;
+	}	
+	.achievements .projPoints .work .points {
+		width: 80px;
+		height: 80px;
+	}
+	.achievements .projPoints .work .labels p {
+		font-size: 18px;
+	}
+	.canvas-stat{
+		height: 250px !important;
+		width: 250px !important;
+	}
+	.achievements .lineChartWrap {
+		padding: 0 20px;
+	}
+	.gen-otline-btn {
+		font-size: 12px;
+	}
+	.achievements .recommendWrap .recommendBox .availability {
+		width: 100%;
+		height: 80px;
+		padding: 10px;
+	}
+	.achievements .recommendWrap .recommendBox .availability .price p {
+		font-size: 20px;
+	}
+	.achievements .recommendWrap .recommendBox .availability .timeTag a {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+	.achievements .recommendWrap .recommendBox .availability {
+		width: 100%;
+		height: 80px;
+		padding: 10px;
+		
+	}
+}
+@media only screen and (max-width:1280px) {
+	.document-tag {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.save-button img {
+		padding: 0 9px;
+		display: none;
+	}
+	.tag-div-icn {
+		padding: 5px 5px;
+		margin-bottom: 5px;
+	}
+	.tag-div {
+		margin-bottom: 6px;
+		padding: 9px 7px;
+	}
+	.content-text {
+		padding: 0px 3px;
+	}
+	.dot-icn{
+		margin-top: 10px;
+		margin-left: 6px;
+	}
+	.method {
+		min-height: 100px;
+		height: 100%;
+	
+	}
+	.method img {
+		width: 100%;
+		max-width: 95px;
+	}
+	.form-wrap-payment {
+		padding: 0px 0px;
+	}
+	.expiry-detail {
+		margin-top: 30px !important;
+	}
+	.contract-par-field-sel {
+		padding: 15px 0px;
+	}
+	.box-card1 img {
+		max-width: 34px;
+		display: block;
+		margin: 0 auto;
+	}
+	.box-card1 {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.box-text {
+		text-align: center;
+	}
+	.dropzone {
+		min-height: 375px;
+	}
+	.canvas-stat {
+		height: 298px !important;
+		width: 170px !important;
+	}
+	.achievements .graphTitle {
+		font-size: 19px;
+	}
+	.achievements .recommendWrap .recommendBox .heading {
+		font-size: 16px;
+	}
+	.achievements .recommendWrap .recommendBox .availability {
+		flex-direction: column;
+	}
+	.achievements .projPoints .work .labels span {
+		font-size: 15px;
+	}
+	.achievements .projPoints .work .labels p {
+		font-size: 15px;
+	}
+	.recommendWrap .graphTitle {
+		font-size: 13px;
+	}
+	.achievements .graphTitle {
+		font-size: 16px;
+	}
+	.notesList .gen-otline-btn {
+		font-size: 11px;
+	}
+	.notesList .gen-otline-btn {
+		 border-radius: 0px; 
+	}
+	
+}
+
+@media only screen and (max-width:1040px) {}
+
+@media only screen and (max-width:1024px) {
+	.dashboard-head-right {
+		justify-content: flex-end;
+	}
+	.data-table1 {
+		margin-left: 10px;
+		width: 95%;
+		margin-bottom: 20px;
+		padding: 0;
+		margin: 0 40px 20px;
+	}
+	.manage-settting-head .account-wrap-3 {
+		margin-left: 50px;
+	}
+	.manage-settting-head .account-wrap-1 {
+		margin-left: 50px;
+	}
+	
+	
+	.mobile-toggle {
+		display: block;
+	}
+	.mobile-wrap {
+        position: fixed;
+        top: 0;
+         left: -100%;
+        flex-direction: column;
+        justify-content: center !important;
+        width: 100%;
+        max-width: 320px;
+        height: 100%;
+        background: #fff;
+        z-index: 9999;
+		overflow: auto;
+        transition: all 0.5s ease-in-out;
+    }
+	.mobile-wrap.active {
+        left: 0;
+    }
+	.right-box-wrap {
+	 width:100%;
+	}
+	aside {
+		 background:none; 
+	}
+	.side-logo a img {
+		max-width: 250px;
+		object-fit: cover;
+	}
+	.dashboard-head-right h6 {
+		font-size: 30px;
+	}
+	header {
+		padding: 44px 0;
+	}
+	.dashboard-head-right h6 {
+		font-size: 30px;
+	}
+	.dashboard-links .nav .nav-link {
+		padding: 10px 0 10px 10px;
+	}
+	.user-profile {
+		margin-top: 60px;
+	}
+	.toogle-close-btn {
+		font-size: 24px;
+		color: #fff;
+		background: transparent;
+		display: block;
+		width: 45px;
+		height: 45px;
+		border: 2px solid #f56e47;
+		border-radius: 50%;
+		position: absolute;
+		top: 4%;
+		right: 5%;
+		}
+		.toogle-close-btn i{
+			color:#f56e47;
+		} 
+		.toggle-button .toggle-btn {
+			display: block;
+		}
+		.canvas-stat {
+			height: 298px !important;
+			width: 260px !important;
+		}
+}
+
+@media only screen and (max-width:991px) {}
+
+@media only screen and (max-width:910px) {
+	.achievements .pieWrap {
+		width: 210px;
+		height: 282px;
+		margin: 0 auto;
+	}
+	.canvas-stat {
+		height: 298px !important;
+		width: 211px !important;
+		margin: 0 auto;
+	}
+	.dashboard-head-right h6 {
+		font-size: 19px;
+	}
+	.side-logo a img {
+		max-width: 220px;
+		object-fit: cover;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.canvas-stat {
+		height: 287px !important;
+		width: 211px !important;
+	}
+	.achievements .projPoints .work {
+		flex-direction: column;
+	}
+	.notesList .gen-otline-btn {
+		width: 50%;
+		margin: 0 auto;
+		border-radius: 25px !important;
+	}
+	.dashboard-head-right h6 {
+		font-size: 20px;
+	}
+	.dashboard-head-right {
+		padding: 0px 0;
+		display: flex;
+		flex-direction: column;
+		/* width: calc(100% - 399px); */
+		padding-right: 0px;
+	}
+	.mobile-toggle {
+		font-size: 14px;
+		padding: 4px 9px;
+		max-width: 30px;
+		height: 30px;
+		width: 100%;
+		margin-top: -38px;
+	}
+	.head-right-box ul li a.notification-icon {
+		font-size: 13px;
+		width: 35px;
+		height: 35px;
+	}
+	.side-logo a img {
+		max-width: 190px;
+		margin-bottom: 5px;
+	}
+	.achievements .box {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.achievements .lineChartWrap {
+		width: 70%;
+		margin: 0 auto;
+		border-radius: 25px;
+	}
+	.achievements .row {
+		margin-bottom: 30px !important;
+	}
+	.achievements .pieChartWrap {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.achievements .projPoints {
+		width: 70%;
+     	margin: 0 auto;	
+	}
+	.achievements .notesWrap {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.achievements .recommendWrap {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.achievements .notesWrap .notesList .list .desc {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width:575px) {
+        .notification-dropdown-wrap {
+    position: absolute;
+    top: 100%;
+    right: -130px;
+    /* left: 0; */
+    margin: 0 auto;
+    width: 281px;
+
+}
+	.side-logo a img {
+		max-width: 160px;
+	}
+	input[type=search]:focus {
+		width: 117px;
+		padding-left: 59px;
+	}
+	.head-left-box {
+		width: 500px;
+	}
+	.dashboard-head-right {
+		width: 92%;
+		margin-left: 38px;
+		padding: 3px 0px;
+	}
+	.mobile-toggle {
+		height: 30px;
+		width: 100%;
+		margin-top: -68px;
+	}
+	aside {
+		padding: 15px 0;
+	}
+	input[type=search] {
+		font-size: 65%;
+		padding: 8px 8px;
+	}
+	.dashboard-head-right h6 {
+		font-size: 18px;
+		margin-left: 50px;
+	}
+	.sales-boxes .box .title {
+		font-size: 25px;
+	}
+	.home-content .sales-boxes .recent-sales {
+		margin: 0 auto;
+	}
+	.home-section {
+		padding: 20px 0;
+	}
+	.sales-boxes .sales-details li.topic {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.sales-boxes .sales-details li a {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width:385px) {}

@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from myprojectstaging.com/html/melbourne-dashboard/teacher-dashboard/dashboard.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jul 2022 20:35:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <title>NEX GEN EDUCATION</title>
+  <!--<link rel="icon" href="./assets/images/favicon.png" />-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link href='../../../../unpkg.com/boxicons%402.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../../../../cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css">
+  <link rel="stylesheet" href="../../../../cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../../../../cdn.datatables.net/buttons/1.6.4/css/buttons.dataTables.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/sub-style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/aos.css"/>
+</head>
+
+<body>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row m-0">
+        <div class="head-left-box">
+          <div class="side-logo dashboard-head-right">
+                <!-- <h6>Good Morning John!</h6> -->
+                <a href="javascript:void(0)"><img src="assets/images/logo-gen.png" class="img-fluid logo-image-gen"></a>
+            </div>
+        </div>
+        <div class="dashboard-head-right">
+            <!-- <h6>Good Morning John!</h6> -->
+          <div class="head-right-box">
+           <ul>
+             <li class="list-inline-item notification-dropdown">
+              <a href="javascript:avoid(0)" class="notification-icon"><i class="far fa-bell"></i></a>
+              <div class="notification-dropdown-wrap">
+                <div class="notification-item">
+                  <div class="notification-item-image">
+                    <img src="assets/images/notification-img-1.png" class="img-fluid">
+                  </div>
+                  <div class="notification-item-text">
+                    <p>Up tp 75% off is back! Shop today tomorrow to save big on fun family activities, spa treatments, yummy food more! Ends 9/11.</p>
+                  </div>
+                </div>
+                <div class="notification-item">
+                  <div class="notification-item-image">
+                    <img src="assets/images/notification-img-1.png" class="img-fluid">
+                  </div>
+                  <div class="notification-item-text">
+                    <p>Up tp 75% off is back! Shop today tomorrow to save big on fun family activities, spa treatments, yummy food more! Ends 9/11.</p>
+                  </div>
+                </div>
+                <div class="notification-btns">
+                  <a href="javascript:;" class="notification-btn">View All Notifications</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <form class="search-form">
+                <input type="search" placeholder="Search For Project">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="javascript:void(0)" class="mobile-toggle"><i class="fas fa-bars"></i></a>
+</header>
+<section class="dashboard-sec">
+   <div class="row">
+      <aside>
+      <!-- <div class="side-logo">
+         <a href="javascript:void(0)"><img src="assets/images/logo.png" class="img-fluid"></a>
+      </div> -->
+      <div class="mobile-wrap">   
+      <button type="button" class="toogle-close-btn">
+                        <i class="fas fa-times"></i>
+                     </button>
+         <div class="user-profile">
+            <div class="profile-image">
+               <img src="assets/images/user-image.png" class="img-fluid">
+            </div>
+            <div class="user-name">
+               <p>John Doe</p>
+               <!-- <button type="button" class="gen-otline-btn mt-2">Pro Level</button> -->
+            </div>
+         </div>
+         <div class="dashboard-links">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+               <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#dashboard" role="tab" aria-controls="v-pills-home" aria-selected="true"><img src="assets/images/dash-icon1.png" alt="img" class="img-fluid"> Dashboard</a>
+               <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#viewProfile" role="tab" aria-controls="v-pills-profile" aria-selected="false"><img src="assets/images/dash-icon2.png" alt="img" class="img-fluid"> View My Profile</a>
+               <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#editProfile" role="tab" aria-controls="v-pills-messages" aria-selected="false"><img src="assets/images/dash-icon3.png" alt="img" class="img-fluid"> Edit My Profile</a>
+               <a class="nav-link" id="v-pills-acc-settings-tab" data-toggle="pill" href="#acc-settings" role="tab" aria-controls="acc-settings" aria-selected="false"><img src="assets/images/dash-icon4.png" alt="img" class="img-fluid"> Account Settings</a>
+               <a class="nav-link" id="v-pills-request-room-tab" data-toggle="pill" href="#request-room" role="tab" aria-controls="request-room" aria-selected="false"><img src="assets/images/dash-icon7.png" alt="img" class="img-fluid"> Online Session</a>
+               <a class="nav-link" id="v-pills-request-room-tab" data-toggle="pill" href="#feedback" role="tab" aria-controls="request-room" aria-selected="false"><img src="assets/images/dash-icon7.png" alt="img" class="img-fluid"> FeedBack Form</a>
+               <a class="nav-link" id="v-pills-helpSupport-tab" data-toggle="pill" href="#helpSupport" role="tab" aria-controls="helpSupport" aria-selected="false"><img src="assets/images/dash-icon13.png" alt="img" class="img-fluid"> Help & Support</a>
+               <a class="nav-link" href="javascript:;"><img src="assets/images/dash-icon15.png" alt="img" class="img-fluid"> Logout</a>
+            </div>
+         </div>
+         
+       </div>
+      </aside>
+      <div class="right-box-wrap">
+         <div class="tab-content" id="v-pills-tabContent">
+            <!-- Dashboard Tab -->
+            <div class="tab-pane fade show active" id="dashboard" role="tabpanel" aria-labelledby="v-pills-home-tab">
+               <!-- dashboard-data -->
+              
+
+               <section class="home-section">
+
+    <div class="home-content">
+          <div class="row">
+             <div class="col-12 col-md-12 col-12">
+             <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Courses</div>
+            <div class="number">4</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">from January</span>
+            </div>
+          </div>
+          <i class="fas fa-book book"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Students</div>
+            <div class="number">64</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Starting From January</span>
+            </div>
+          </div>
+          <i class="fas fa-user-graduate book"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Pass Students</div>
+            <div class="number">40</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">December</span>
+            </div>
+          </div>
+          <i class="fas fa-user-graduate book"></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Fail Students</div>
+            <div class="number">24</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">December</span>
+            </div>
+          </div>
+          <i class="fas fa-user-graduate book"></i>
+        </div>
+      </div>
+
+             </div>
+
+          </div>
+
+          <div class="row">
+             <div class="col-12 col-md-12 col-lg-12">
+             <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Student Result</div>
+          <div class="sales-details">
+          <ul class="details">
+              <li class="topic">ID</li>
+              <li><a href="#!">#01234</a></li>
+              <li><a href="#!">#01235</a></li>
+              <li><a href="#!">#01236</a></li>
+              <li><a href="#!">#01237</a></li>
+              <li><a href="#!">#01238</a></li>
+              <li><a href="#!">#01239</a></li>
+              <li><a href="#!">#01240</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">	NAME</li>
+              <li><a href="#!">Nadeesha</a></li>
+              <li><a href="#!">Adrian</a></li>
+              <li><a href="#!">Lawson</a></li>
+              <li><a href="#!">Puline</a></li>
+              <li><a href="#!">Nyamakal</a></li>
+              <li><a href="#!">Curtnry</a></li>
+              <li><a href="#!">Matthew</a></li>
+            </ul>
+         
+            <ul class="details">
+            <li class="topic">CITY</li>
+            <li><a href="#!">London</a></li>
+            <li><a href="#!">California</a></li>
+            <li><a href="#!">New York</a></li>
+            <li><a href="#!">California</a></li>
+            <li><a href="#!">New York</a></li>
+            <li><a href="#!">	Medan</a></li>
+            <li><a href="#!">Manchester</a></li>
+          </ul>
+          <ul class="details obtained-marks">
+            <li class="topic">GRADE</li>
+            <li><a href="#!">A</a></li>
+            <li><a href="#!">B</a></li>
+            <li><a href="#!">A</a></li>
+            <li><a href="#!">C</a></li>
+            <li><a href="#!">A</a></li>
+            <li><a href="#!">F</a></li>
+            <li><a href="#!">F</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">STATUS</li>
+            <li class="Pass"><a href="#!">Pass</a></li>
+            <li  class="Pass"><a href="#!">Pass</a></li>
+            <li  class="Pass"><a href="#!">Pass</a></li>
+            <li  class="Pass"><a href="#!">Pass</a></li>
+            <li  class="Pass"><a href="#!">Pass</a></li>
+            <li  class="fail"><a href="#!">Fail</a></li>
+            <li class="fail"><a href="#!">Fail</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+
+             </div>
+
+          </div>
+    </div>
+  </section>
+               
+               <!-- dahboard-end -->
+            </div>
+            <!-- View Profile Tab -->
+            <div class="tab-pane fade" id="viewProfile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+               
+            
+            <!-- view-my-profile-tab-start -->
+                         <!-- personal=info-start -->
+                         <div class="personal-info">
+                     <h1 class="personal-info1">Personal Info</h1>
+                     <!-- <p class="personal-info2">Your Details</p> -->
+                     <!-- file-uploader-start -->
+                          <!-- banner-image -->
+                          <div class="avatar-round-image">
+                                <div class="avatar-upload">
+                                    <div class="avatar-previewrou">
+                                        <div  id="imagePreviewNew" style="background-image:url('assets/images/round.png')"> </div>
+                                    </div>
+                                </div>
+                                </div>
+                         <!-- banner-image-end -->
+                     <!-- file-uploader-end -->
+                     <!-- form-start -->
+                     <div class="form-wrap">
+                        <div class="row">
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1">
+                                 <div class="text-label">
+                                    <label>First Name</label>
+                                 </div>
+                                 <input type="text" value="John">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1">
+                                 <div class="text-label">
+                                    <label>Last Name</label>
+                                 </div>
+                                 <input type="text" value="smith">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Your Display Name</label>
+                                 </div>
+                                 <input type="text" value="John smith">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1  mt-2">
+                                 <div class="text-label">
+                                    <label>Email Address</label>
+                                 </div>
+                                 <input type="text" value="john@gmail.com">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Standard</label>
+                                 </div>
+                                 <input type="text" value="6th Standard">
+                              </div>
+                           </div>
+                        </div>
+                         
+                        <!-- form-wrap-second-row -->
+                        <!-- form-wrap-second-row-end -->
+                     </div>
+                     <!-- form-end -->
+                  </div>
+            <!-- view-my-profile-tab-end -->
+            
+            <!-- tab-end -->
+           </div>
+            <!-- Edit Profile Tab -->
+            <div class="tab-pane fade" id="editProfile" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+               <!-- inneridetail-edit-profile-start -->
+               <div class="container">
+                  <!-- banner-image-start-->
+                  <div class="row">
+                      <div class="col-12 col-md-12 col-lg-12">
+                          
+                      </div>
+                  </div>
+                  <!-- personal=info-start -->
+                  <div class="personal-info">
+                     <h1 class="personal-info1">Personal Info</h1>
+                     <p class="personal-info2">Your Details</p>
+                     <!-- file-uploader-start -->
+                          <!-- banner-image -->
+                          <div class="avatar-round-image">
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type="file" class="roundd" id="imageUploadNew" accept=".png, .jpg, .jpeg">
+                                        <label class="camera-img" for="imageUploadNew"><img src="assets/images/camera.png"  class="img-fluid"></label>
+                                    </div>
+                                    <div class="avatar-previewrou">
+                                        <div  id="imagePreviewNew" style="background-image:url('assets/images/round.png')"> </div>
+                                    </div>
+                                </div>
+                                </div>
+                         <!-- banner-image-end -->
+                     <!-- file-uploader-end -->
+                     <!-- form-start -->
+                     <div class="form-wrap">
+                        <div class="row">
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <!-- <div class="label-1">
+                                 <label>Full Name</label>
+                                 </div> -->
+                              <div class="field-1">
+                                 <div class="text-label">
+                                    <label>Full Name*</label>
+                                 </div>
+                                 <input type="text" placeholder="First Name*">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1">
+                                 <div class="text-label">
+                                    <label>Last Name*</label>
+                                 </div>
+                                 <input type="text" placeholder="Last Name*">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Your Display Name*</label>
+                                 </div>
+                                 <input type="text" placeholder="John smith">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1  mt-2">
+                                 <div class="text-label">
+                                    <label>Email Address*</label>
+                                 </div>
+                                 <input type="text" placeholder="Your Email*">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Designation*</label>
+                                 </div>
+                                 <input type="text" placeholder="Your Designation">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Job Title*</label>
+                                 </div>
+                                 <input type="text" placeholder="Your Title">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-3 mt-2">
+                                 <div class="text-label">
+                                    <label>Crafted Projects*</label>
+                                 </div>
+                                 <!-- <input type="text" placeholder="Last Name*"> -->
+                                 <div class="crafted">
+                                    <input type='file' />
+                                 </div>
+                                 <!-- <img id="blah" src="http://placehold.it/180" alt="your image" /> -->
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Skills*</label>
+                                 </div>
+                                 <input type="text" placeholder="Your Skills">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-3 mt-2">
+                                 <div class="text-label">
+                                    <label>Award and Certificate</label>
+                                 </div>
+                                 <div class="crafted">
+                                    <input type='file'   />
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6">
+                              <div class="field-1 mt-2">
+                                 <div class="text-label">
+                                    <label>Experience</label>
+                                 </div>
+                                 <input type="text" placeholder="Your Exprience">
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-12 col-lg-12">
+                              <div class="text-label mt-2">
+                                 <label>About Your Information </label>
+                              </div>
+                              <div class="field-textarea ">
+                                 <textarea placeholder="Your Designation*" rows="7" cols="10"></textarea>
+                              </div>
+                           </div>
+                           <div class="btn-wrap">                                    
+                              <a href="#!" class="gen-otline-btn">Save & Submit </a>
+                           </div>
+                        </div>
+                        <!-- form-wrap-second-row -->
+                        <!-- form-wrap-second-row-end -->
+                     </div>
+                     <!-- form-end -->
+                  </div>
+                  <!-- personal-info-end -->
+               </div>
+               <!-- innnerdettail-edt-profile-end -->
+               <!-- Edit Profile-tab-end -->
+               <!-- 03 -->
+            </div>
+            <!-- Account Settings TAB -->
+            <div class="tab-pane fade" id="acc-settings" role="tabpanel" aria-labelledby="v-pills-acc-settings-tab">
+               <!-- account-setting-start -->
+               <div class="account-wrap">
+                  <p class="account-wrap-1 mb-2">Manage Account </p>
+                  <p class="account-wrap-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                     printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining esse
+                     ntially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+                     Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <!-- form-start -->
+                  <!-- form-start -->
+                  <div class="form-wrap">
+                     <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6">
+                           <div class="field-1 mt-4">
+                              <div class="text-label">
+                                 <label>Password*</label>
+                              </div>
+                              <input type="password" placeholder="Enter Your Password*">
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                           <div class="field-1 mt-4">
+                              <div class="text-label">
+                                 <label>Confirm-Password*</label>
+                              </div>
+                              <input type="password" placeholder="Confirm Your Password">
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                           <div class="email-box1 mt-2"  data-toggle="tooltip" data-placement="top">
+                              <p class="email-text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                           <div class="email-box1 mt-2" >
+                              <p class="email-text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-12">
+                           <div class="switch-buttonBox mt-2">
+                              <button type="button" class="btn btn-toggle" data-toggle="button" aria-pressed="false" 
+                                 autocomplete="off">
+                                 <div class="handle"></div>
+                              </button>
+                              <span>Disable my account temporarily</span>
+                           </div>
+                        </div>
+                        <div class="btn-wrap  ">                                    
+                           <a href="#!" class="gen-otline-btn">Save Account Setting </a>
+                           <a href="#!" class="btn btn-danger delete-btn" >Delete Account Setting</a>
+                        </div>
+                     </div>
+                     <!-- form-wrap-second-row -->
+                     <!-- form-wrap-second-row-end -->
+                  </div>
+                  <!-- form-end -->
+               </div>
+               <!-- account-setting-end -->
+               <!-- account-setting-tab-end -->
+            </div>
+            <!-- Network Bubble TAB -->
+            <div class="tab-pane fade" id="net-bubble" role="tabpanel" aria-labelledby="v-pills-net-bubble-tab">
+               <div class="networkWrap">
+                  <div class="tab-heading mb-4">
+                     <p class="black-heading">Create Network</p>
+                     <span>Lorem Ipsum is simply dummy text</span>
+                  </div>
+                  <div class="row m-0">
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-1.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-2.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-3.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-1.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-1.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-2.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-3.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                     <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="profileBox">
+                           <div class="profileFirstImg">
+                              <img src="assets/images/seller-main-1.png" alt="profile" class="img-fluid">
+                              <img src="assets/images/checked-tag.png" alt="tag" class="img-fluig tagImg">
+                           </div>
+                           <div class="profileInfo">
+                              <div class="profilePicRating">
+                                 <div class="onlineSeller">
+                                    <span class="imgBg">
+                                    <img src="assets/images/profile-pic.png" alt="profile image" class="img-fluid">
+                                    </span>
+                                    <label></label>
+                                 </div>
+                                 <div class="sellerProf">
+                                    <p class="profileName">Sarah Doe</p>
+                                    <label>Level 1 Seler</label>
+                                 </div>
+                              </div>
+                              <p class="profileDetail">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                              <p class="rating"> <span><i class="fas fa-star"></i></span> <label>5.0</label> <label>(30)</label> </p>
+                           </div>
+                        </div>
+                        <div class="profileCta text-center">
+                           <a href="#!" class="gen-otline-btn"> <span><i class="fas fa-plus"></i></span> Add Network </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="network-viewBtn">
+                     <button type="button" class="gen-otline-btn">View More</button>
+                  </div>
+               </div>
+            </div>
+            <!-- Contracts TAB -->
+            <div class="tab-pane fade" id="contracts" role="tabpanel" aria-labelledby="v-pills-contracts-tab">
+               <!-- contract-tab-start -->
+               <div class="row">
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <!-- heading-1-start -->
+                     <p class="account-wrap-1 mt-4 mb-2">Contracts</p>
+                     <p class="account-wrap-2  account-wrap-3 mb-4">Lorem Ipsum Dolar Lorem Ipsum.</p>
+                     <!-- heading-1-start-end -->
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6">
+                     <input type="text" class="contract-field mb-3" placeholder="Contract Title">
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6">
+                     <input type="text" class="contract-field mb-3" placeholder="Contract Type">
+                  </div>
+               </div>
+               <hr>
+               <div class="row">
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <p class="account-wrap-1 mt-2 mb-4">Parties</p>
+                  </div>
+                  <div class="col-12 col-md-4 col-lg-4">
+                     <div class="par-forwrap">
+                        <p class="account-wrap-2  account-wrap-4 mb-4"><span class="profile-icn"><i class="far fa-user"></i></span>Profile 1</p>
+                        <form>
+                           <div class="par-field-1">
+                              <select class="contract-par-field mb-4">
+                                 <option selected="selected">On Behalf Of</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                              </select>
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Representative Title">
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Representative Name">
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Email Address">
+                           </div>
+                        </form>
+                        <div class="box-wrap">
+                           <div class="box-card1 mb-4">
+                              <img src="assets/images/document.png" class="img-fluid">
+                              <div class="box-cardtext">
+                                 <p class="box-text">Signature Will <br>Appear Here</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second-row -->
+                  <div class="col-12 col-md-4 col-lg-4">
+                     <div class="par-forwrap">
+                        <p class="account-wrap-2  account-wrap-4 mb-4"><span class="profile-icn"><i class="far fa-user"></i></span>Profile 2</p>
+                        <form>
+                           <div class="par-field-1">
+                              <select class="contract-par-field mb-4">
+                                 <option selected="selected">On Behalf Of</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                              </select>
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Personal Title">
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Full Name">
+                           </div>
+                           <div class="par-field-2">
+                              <input type="text" class="contract-par-field mb-3" placeholder="Email Address">
+                           </div>
+                        </form>
+                        <div class="box-wrap">
+                           <div class="box-card1 mb-4">
+                              <img src="assets/images/document.png" class="img-fluid">
+                              <div class="box-cardtext">
+                                 <p class="box-text">Signature Will <br>Appear Here</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second-row-end -->
+                  <!-- third-row-start -->
+                  <div class="col-12 col-md-4 col-lg-4">
+                     <div class="par-forwrap2">
+                        <!-- drag-start -->
+                        <DIV id="dropzone">
+                           <DIV class="dropzone needsclick" id="demo-upload" action="https://myprojectstaging.com/upload">
+                              <DIV class="dz-message needsclick"> 
+                                 <SPAN class="note needsclick">
+                                 <i class="fas fa-cloud-upload-alt"></i>
+                                 <span id="fileLabelText">
+                                 Add file And Signatures<br>
+                                 Drag and Drop
+                                 </span>
+                                 </SPAN>
+                              </DIV>
+                           </DIV>
+                        </DIV>
+                        <DIV id="preview-template" style="display: none;"></DIV>
+                        <!-- drag-end -->
+                     </div>
+                  </div>
+                  <!-- third-row-end -->
+                  <div class="col-12 col-md-12 col-lg-12 p-0">
+                     <div class="save-button btn-wrap btn-wrap-2  mt-2">
+                        <div class="submit-butn">
+                           <button type="submit" class="gen-otline-btn gen-otline-btn-send">Sign & Send</button>
+                        </div>
+                        <a href="#!" class="btn btn-danger delete-btn">Save to Draft</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- document-row-start -->
+               <div class="row">
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <div class="document-wrap">
+                        <p class="account-wrap-1  mb-2">My Documents</p>
+                        <p class="account-wrap-2  account-wrap-3 mb-4">Lorem Ipsum Dolar Lorem Ipsum.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <div class="document-box1 mb-4">
+                        <div class="row">
+                           <div class="col-12 col-md-5 col-lg-5">
+                              <div class="title-wrap">
+                                 <div class="title-img">
+                                    <img src="assets/images/title-1.png" class="img-fluid">
+                                 </div>
+                                 <div class="document-text">
+                                    <p class="document-text1">Document Title</p>
+                                    <p class="document-text2">Lorem Ipsum is simply dummy text of the printing and 
+                                       typesetting industry Lorem Ipsum has been the industry
+                                    </p>
+                                    <div class="document-tag">
+                                       <span class="tag-div">2021</span>
+                                       <span  class="tag-div">Company</span>
+                                       <span  class="tag-div">+ Add Tags</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-3 col-lg-3">
+                              <div class="tag-wrap">
+                                 <div class="document-tag">
+                                    <span class="tag-div-icn"><img src="assets/images/checked.png">3</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/thirt.png">13</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/view.png">view</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-4 col-lg-4">
+                              <div class="tag-wrap">
+                                 <div class="document-tagwrap">
+                                    <p class="document-tag-content"><img src="assets/images/arrow.png" class="img-fluid"><i class="fas fa-lock"></i>Dummy Company LTD<br><span class="content-text">Lorem Ipsum</span></p>
+                                    <div class="signed-btnwrap">
+                                       <div class="save-button">
+                                          <a href="#!" class="btn btn-danger btn-border  delete-btn "><img src="assets/images/dot.png" class="img-fluid">
+                                          <span class="signed-text">Signed</span> </a>
+                                       </div>
+                                    </div>
+                                    <div class="dot-icn">
+                                       <span> <i class="fas fa-ellipsis-v"></i></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- second-row-start -->
+                           <!-- second-row-end -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second-col-start -->
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <div class="document-box1 mb-4">
+                        <div class="row">
+                           <div class="col-12 col-md-5 col-lg-5">
+                              <div class="title-wrap">
+                                 <div class="title-img">
+                                    <img src="assets/images/document-2.png" class="img-fluid">
+                                 </div>
+                                 <div class="document-text">
+                                    <p class="document-text1">Document Title</p>
+                                    <p class="document-text2">Lorem Ipsum is simply dummy text of the printing and 
+                                       typesetting industry Lorem Ipsum has been the industry
+                                    </p>
+                                    <div class="document-tag">
+                                       <span class="tag-div">2021</span>
+                                       <span  class="tag-div">Company</span>
+                                       <span  class="tag-div">+ Add Tags</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-3 col-lg-3">
+                              <div class="tag-wrap">
+                                 <div class="document-tag">
+                                    <span class="tag-div-icn"><img src="assets/images/checked.png">3</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/thirt.png">13</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/view.png">view</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-4 col-lg-4">
+                              <div class="tag-wrap">
+                                 <div class="document-tagwrap">
+                                    <p class="document-tag-content"><img src="assets/images/arrow.png" class="img-fluid"><i class="fas fa-lock"></i>Dummy Company LTD<br><span class="content-text">Lorem Ipsum</span></p>
+                                    <div class="signed-btnwrap">
+                                       <div class="save-button">
+                                          <a href="#!" class="btn btn-danger delete-btn btn-border Pending-btn"><img src="assets/images/yellow.png" class="img-fluid"><span class="signed-text">Pending</span></a>
+                                       </div>
+                                    </div>
+                                    <div class="dot-icn">
+                                       <span> <i class="fas fa-ellipsis-v"></i></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- second-row-start -->
+                           <!-- second-row-end -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second-col-end -->
+                  <!-- third-col-start -->
+                  <div class="col-12 col-md-12 col-lg-12">
+                     <div class="document-box1 mb-4">
+                        <div class="row">
+                           <div class="col-12 col-md-5 col-lg-5">
+                              <div class="title-wrap">
+                                 <div class="title-img">
+                                    <img src="assets/images/title-1.png" class="img-fluid">
+                                 </div>
+                                 <div class="document-text">
+                                    <p class="document-text1">Document Title</p>
+                                    <p class="document-text2">Lorem Ipsum is simply dummy text of the printing and 
+                                       typesetting industry Lorem Ipsum has been the industry
+                                    </p>
+                                    <div class="document-tag">
+                                       <span class="tag-div">2021</span>
+                                       <span  class="tag-div">Company</span>
+                                       <span  class="tag-div">+ Add Tags</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-3 col-lg-3">
+                              <div class="tag-wrap">
+                                 <div class="document-tag">
+                                    <span class="tag-div-icn"><img src="assets/images/checked.png">3</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/thirt.png">13</span>
+                                    <span  class="tag-div-icn"><img src="assets/images/view.png">view</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-12 col-md-4 col-lg-4">
+                              <div class="tag-wrap">
+                                 <div class="document-tagwrap">
+                                    <p class="document-tag-content"><img src="assets/images/arrow.png" class="img-fluid"><i class="fas fa-lock"></i>Dummy Company LTD<br><span class="content-text">Lorem Ipsum</span></p>
+                                    <div class="signed-btnwrap">
+                                       <div class="save-button">
+                                          <a href="#!" class="btn btn-danger delete-btn btn-border"><img src="assets/images/dot.png" class="img-fluid"><span class="signed-text">Signed</span> </a>
+                                       </div>
+                                    </div>
+                                    <div class="dot-icn">
+                                       <span> <i class="fas fa-ellipsis-v"></i></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- second-row-start -->
+                           <!-- second-row-end -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- third-col-end -->
+               </div>
+               <!-- document-row-end -->
+               <!-- contract-tab-end -->
+            </div>
+            <!-- Request a Collab Room TAB -->
+            <div class="tab-pane fade" id="request-room" role="tabpanel" aria-labelledby="v-pills-request-room-tab">
+               <div class="request-roomTab-wrap">
+                  <div class="tab-heading mb-2">
+                     <p class="black-heading">Request A Collab Room</p>
+                     <span>Lorem Ipsum Dolar Lorem Ipsum</span>
+                  </div>
+                  <div class="request-roomBox mb-4">
+                     <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                           <div class="request-video">
+                              <img src="assets/images/video-img3.jpg" alt="img" class="img-fluid">
+                           </div>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-8">
+                           <div class="requestRoom-content">
+                              <div class="tab-heading mb-4">
+                                 <p class="black-heading">Live Session</p>
+                                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                              </div>
+                              <ul class="listing">
+                                 <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</li>
+                                 <li>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</li>
+                                 <li>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa</li>
+                                 <li>qui officia deserunt mollit anim id est laborum.</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                        <!-- form-start -->
+                        <form class="needs-validation" novalidate>
+                     <div class="row">
+                  
+                        <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form-group mt-4">
+                                       <label for="exampleInputPassword1">Password</label>
+                                       <input type="password" class="form-field" placeholder="Password">
+                                   </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                        <div class="form-group mt-4">
+                                       <label for="exampleInputPassword1">Time</label>
+                                       <input type="time" class="form-field"  placeholder="Password">
+                                   
+                                   </div>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-6">
+                      <div class="form-group">
+                                      <select class="form-field mt-4">
+                                         <option selected="selected">Select Class</option>
+                                         <option>o-Level</option>
+                                         <option>A-level</option>
+                                      </select>
+                                   </div>
+                     </div>
+                     <div class="col-12 col-md-6 col-lg-6">
+                          <div class="request-btn-2 mt-4">
+                                 <a href="javascript:void(0)" class="gen-otline-btn">Request Video Call</a>
+                              </div>
+                   </div>
+ 
+                  </form>
+                  </div>
+               </div>
+            </div>
+</div>
+             <!-- Feedback Tab Start -->
+             <div class="tab-pane fade" id="feedback" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                
+             <!-- feedback-form-start -->
+             
+                 <div class="row">
+                   
+                    <div class="col-12 col-md-12 col-lg-12">
+                    <form class="needs-validation" novalidate>
+                                    <div class="form-group">
+                                       <p class="modal-text account-wrap-2 remark-text  mb-4">Enter your remarks for your Students</p>
+                                       <select class="form-field mb-4">
+                                          <option selected="selected">Select Student name</option>
+                                          <option>Carry</option>
+                                          <option>Johny</option>
+                                          <option>Bob</option>
+                                          <option>finn</option>
+                                          <option>williamson</option>
+                                          <option>grey</option>
+                                          <option>watson</option>
+                                          
+                                       </select>
+                                    </div>
+                                    <div class="form-group">
+                                       <select class="form-field mb-4">
+                                          <option selected="selected">Select reason</option>
+                                          <option>Complain</option>
+                                          <option>Praise</option>
+                                       </select>
+                                    </div>
+                                    <div class="form-group">
+                                       <textarea class="form-field mb-4" rows="7" cols="7" placeholder="Add  Your Feedback"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger delete-btn">Send Feedback</button>
+                                 </form>
+                    </div>
+                   
+                 </div>
+
+              
+
+
+             <!-- feedback-form-end -->
+             
+             
+             
+            </div>
+            <!-- Feedback Tab  End-->
+            
+            <!-- Help & Support TAB -->
+            <div class="tab-pane fade" id="helpSupport" role="tabpanel" aria-labelledby="v-pills-helpSupport-tab">
+               <div class="helpSupport-wrap">
+                  <div class="row">
+                     <div class="col-12 col-md-12 col-lg-12">
+                        <div class="helpSupport-box">
+                           <div class="tab-heading mb-2">
+                              <p class="black-heading">Didn't Find Your Solution?</p>
+                              <span class="ask-text">Ask your query feel free.</span>
+                           </div>
+                           <form>
+                              <select class="form-field mb-4">
+                                 <option selected="selected">Select Query Type</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                                 <option>Lorem ipsum dolor sit amet</option>
+                              </select>
+                              <textarea class="form-field mb-4" placeholder="Description"></textarea>
+                              <div class="save-button">
+                                 <button type="submit" class="gen-otline-btn">Save Now</button>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+         </div>
+      </div>
+      <!-- Tabs End -->
+   </div>
+</section>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="../../../../cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
+  <script src="../../../../cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="../../../../cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    var ctx = document.getElementById("myChart").getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["January",	"February",	"March",	"April",	"May",	"June"],
+            datasets: [{
+                label: 'Achievements', // Name the series
+                data: [200,	120,	200,	370,	270,	250], // Specify the data values array
+                fill: true,
+                borderColor: '#ff3600', // Add custom color border (Line)
+                backgroundColor: '#fff0eb', // Add custom color background (Points and Fill)
+                borderWidth: 2 // Specify bar border width
+            }]},
+        options: {
+          responsive: true, // Instruct chart js to respond nicely.
+          maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height 
+        }
+    });
+  </script>
+
+  <script>
+    var oilCanvas = document.getElementById("static");
+    var oilData = {
+        labels: [
+            "Applied Jobs",
+            "Posted Jobs",
+            "Active Bids",
+            "Favourite Jobs",
+        ],
+        datasets: [
+          {
+              data: [30, 20, 10, 20],
+              backgroundColor: [
+                  "#ff4500",
+                  "#49d086",
+                  "#b81b7f",
+                  "#efa80f",
+              ]
+          }]
+    };
+    var pieChart = new Chart(oilCanvas, {
+      type: 'pie',
+      data: oilData
+    });
+  </script>
+  
+<script>
+	tinymce.init({
+		selector: '#editor-cat-repl',
+		menubar: false,
+		statusbar: false,
+		min_height: 200,
+		font_formats: "Arial Black=arial black,avant garde; Courier New=courier new,courier; Lato Black=lato; Roboto=roboto;",
+		toolbar: "undo redo | styleselect | fontsizeselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | forecolor backcolor | fontselect ",
+		plugins: "textcolor colorpicker",
+	});
+	</script>
+
+	
+</body>
+
+
+<!-- Mirrored from myprojectstaging.com/html/melbourne-dashboard/teacher-dashboard/dashboard.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jul 2022 20:35:42 GMT -->
+</html>
